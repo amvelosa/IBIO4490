@@ -1,6 +1,7 @@
 # IBIO4490
 This repository strictly follows the teorethical guidelines provided by the course "*IBIO4490 - Computer Vision*" at Uniandes. 
 **2019**
+
 import   wget
 # Dirección de la cual seva a descargar   la información
 url=‘http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz’
@@ -63,3 +64,24 @@ nov = Image.open("Nov.jpg")
 resep=nov.resize((256,256))
 nov2 = Image.open("Nov2.jpg")
 resep2=nov2.resize((256,256))
+
+nov3= Image.open("Nov3.jpg")
+resep3=nov3.resize((256,256))
+
+nov4 = Image.open("Nov4.jpg")
+resep4=nov4.resize((256,256))
+
+nov5 = Image.open("Nov5.jpg")
+resep5=nov5.resize((256,256))
+
+nov6 = Image.open("Nov6.jpg")
+resep6=nov6.resize((256,256))
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+
+imgplot=plt.imshow(Nov)
+imgplot2=plt.imshow(Nov2)
+imgplot3=plt.imshow(Nov3)
+imgplot4=plt.imshow(Nov4)
+imgplot5=plt.imshow(Nov5)
+imgplot5=plt.imshow(Nov5)
