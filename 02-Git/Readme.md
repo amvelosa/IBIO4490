@@ -199,6 +199,35 @@ See a more complete list at https://git-scm.com/downloads/guis
    `https://github.com/YOUR_USERNAME/IBIO4490/tree/master/01-Linux/Readme.md`
 8. Since you have kindly shared your **username** with me, I (Andrés) will clone your repo and put you a grade. 
 
+Mine
+1.	What is the grep command? 
+The grep command searches for PATTERN  in each FILE.  A FILE of “-” stands for standard input.  If no FILE is given, recursive searches examine the working directory, and nonrecursive searches read standard input.  By default, grep prints the matching lines.
+In addition, the variant programs egrep, fgrep and rgrep are the same as grep -E, grep -F, and grep -r, respectively.  These variants are deprecated, but are  provided  for  backward compatibility.
+2.	What is the meaning of #!/bin/python at the start of scripts?
+The line of code #!/bin/python  calls the language’s interpreter to run the code inside the scrip if it is executable.
+3.	Download using wget the bsds500 image segmentation database, and decompress it using tar (keep it in you hard drive, we will come back over this data in a few weeks).
+tar -xzvf BSR_bsds500.tagz
+4.	What is the disk size of the uncompressed dataset, How many images are in the directory 'BSR/BSDS500/data/images'?
+Memoria en el disco duro
+Du 
+74 Mg
+5.	What are all the different resolutions? What is their format? Tip: use awk, sort, uniq
+
+6.	How many of them are in landscape orientation (opposed to portrait)? Tip: use awk and cut
+7.	Crop all images to make them square (256x256) and save them in a different folder. Tip: do not forget aboutimagemagick.
+Imágenes de gris:
+ Textura=64
+Sequences=69
+Misc=25
+Aerials=1
+Numero imágenes
+  find .-name “*.jpg” | wc -l
+Hay 200 imágenes de trian 
+Hay 200 imágenes de test 
+Hay 100 imágenes de validación 
+
+
+
 # Deadline 
 **February 6 11:59 pm, (it is the same as the first lab)**. Weekly, I will clone your repository for every lab. Please try to keep you repo as light as possible, as to heavy files are cumbersome to push/clone.
 
